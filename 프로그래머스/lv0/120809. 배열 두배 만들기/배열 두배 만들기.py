@@ -1,7 +1,3 @@
 def solution(numbers):
-    answer = []
-    
-    for i in numbers :
-        answer.append(i*2)
-        
-    return answer
+    import numpy as np        
+    return (np.array(numbers) * 2).tolist()
