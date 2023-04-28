@@ -1,9 +1,2 @@
-def solution(my_string):
-    m = ['a','e','i','o','u']
-    string = []
-    
-    for i in list(my_string) :
-        if i not in m :
-            string.append(i)
-    
-    return ''.join(string)
+def solution(my_string):    
+    return ''.join([i for i in my_string if not(i in 'aeiou')])
