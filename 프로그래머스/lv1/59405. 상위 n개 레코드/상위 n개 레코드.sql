@@ -1,4 +1,4 @@
 -- 코드를 입력하세요
-SELECT NAME from ANIMAL_INS
-order by DATETIME
+SELECT name from animal_ins
+order by datetime
 limit 1
