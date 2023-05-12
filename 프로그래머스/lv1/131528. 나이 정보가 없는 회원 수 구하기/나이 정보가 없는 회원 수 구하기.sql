@@ -1,3 +1,4 @@
 -- 코드를 입력하세요
-SELECT count(*) from USER_INFO
-where AGE is null
+SELECT count(*) as USERS
+from user_info
+where age is null
