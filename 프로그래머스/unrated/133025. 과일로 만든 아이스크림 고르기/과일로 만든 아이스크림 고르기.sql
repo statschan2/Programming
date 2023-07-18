@@ -1,5 +1,6 @@
 -- 코드를 입력하세요
-SELECT a.flavor
-from first_half a
-    join icecream_info b on a.flavor = b.flavor
-where a.total_order >= 3000 and b.ingredient_type = 'fruit_based'
+SELECT a.FLAVOR
+FROM FIRST_HALF a
+    JOIN ICECREAM_INFO b ON a.FLAVOR = b.FLAVOR
+WHERE a.TOTAL_ORDER >= 3000 AND b.INGREDIENT_TYPE = 'fruit_based'
+ORDER BY a.TOTAL_ORDER DESC
