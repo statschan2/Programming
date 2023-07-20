@@ -1,5 +1,5 @@
 -- 코드를 입력하세요
-SELECT *
-from food_product
-order by price desc
-limit 1
+SELECT PRODUCT_ID, PRODUCT_NAME, PRODUCT_CD, CATEGORY, PRICE
+FROM FOOD_PRODUCT
+ORDER BY 5 DESC
+LIMIT 1
