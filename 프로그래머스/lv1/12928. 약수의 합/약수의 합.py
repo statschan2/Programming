@@ -1,7 +1,6 @@
 def solution(n):
-    l = []
+    arr = []
     for i in range(1,n+1) :
-        if int(n) % i == 0 :
-            l.append(i)
-    answer = sum(l)
-    return answer
+        if n % i == 0 :
+            arr.append(i)
+    return sum(arr)
