@@ -1,4 +1,6 @@
+# 단
 n = int(input())
 
-for i in range(1, 10, 1) :
-    print('%d * %d = %d' %(n, i, n * i))
+# n단
+for i in range(9) :
+    print('{:d} * {:d} = {:d}'.format(n, (i+1), n*(i+1)))
